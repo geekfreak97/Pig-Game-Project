@@ -1,0 +1,125 @@
+body{
+	background-image: url(back.jpg);
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-size: cover;
+}
+#container{
+	background-color:#FFFF78;
+	margin: 0px auto;
+	width:1000px;
+	height:600px;
+}
+.header{
+	text-align:center;
+	color:blue;
+	font-family: Open Sans;
+}
+#p1header{
+	text-align:center;
+	color:blue;
+	font-family: Open Sans;	
+	
+}
+#p2header{
+	text-align:center;
+	color:blue;
+	font-family: Open Sans;	
+}
+#player1{
+	float:left;
+	margin-left:100px;
+	text-align:center;
+	padding-left:35px;
+	padding-right:35px;
+}
+
+#player1 p{
+	font-size:50px;
+}
+
+#dice{
+	float:left;
+	display: block;
+	margin-top:90px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+#player2{
+	text-align:center;
+	float:left;
+	
+	padding-right:35px;
+	padding-left:35px;
+}
+
+#player2 p{
+	font-size:50px;
+}
+
+#dice-img{
+	width:200px;
+	height:200px;
+}
+#pannel{
+	width:800px;
+	height:180px;
+	margin: 350px auto;
+	background-color:#FFB24B;
+}
+.roll{
+	margin-top:5px;
+	padding:15px;
+	background-color:#642CFF;
+	color:white;
+	font-weight:bold;
+	border:2px solid #FFB24B;
+	border-radius:20px;
+}
+#current1{
+	float:left;
+	color:white;
+	background-color:#FF2D1E;
+	margin-top:10px;
+	margin-left:10px;
+	height:160px;
+	width:150px;
+}
+#current1 p{
+	font-size:50px;
+	margin-top:15px;
+}
+#current1 h4{
+	margin:10px;
+}
+#buttons{
+	float:left;
+	width:300px;
+	margin-left:90px;
+	margin-right:90px;
+}
+#current2{
+	float:left;
+	color:white;
+	background-color:#FF2D1E;
+	margin-top:10px;
+	height:160px;
+	width:150px;
+}
+#current2 h4{
+	margin:10px;
+}
+#current2 p{
+	font-size:50px;
+	margin-top:15px;
+}
+#rules{
+	width:1000px;
+	margin: 10px auto;
+	color:blue;
+	background-color:#FFFF78;
+	font-size:20px;
+	font-weight:bold;
+	overflow:auto;
+}

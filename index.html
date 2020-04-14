@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pig Game</title>
+<meta charset="utf-8">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div id="container">
+<div class="header">
+<h1>PIG GAME</h1>
+
+<div id="player1">
+<h2 id="p1header">PLAYER 1</h2>
+<h3 id="header">SCORE</h3>
+<p id="p1score">00</p>
+</div>
+
+<div id="dice">
+<img src="dice-1.png" alt="dice-1" id="dice-img"/>
+</div>
+
+<div id="player2">
+<h2 id="p2header">PLAYER 2</h2>
+<h3 class="header">SCORE</h3>
+<p id="p2score">00</p>
+</div>
+
+<div id="pannel">
+
+<div id="current1">
+<h4>CURRENT</h4>
+<p id="p1current">00</p>
+</div> 
+
+<div id="buttons">
+<button class="roll" onclick="roll()">ROLL DICE</button>
+<br/>
+<button class="roll" onclick="hold()">HOLD</button>
+<br/>
+<button class="roll" onclick="restart()">RESTART</button>
+</div>
+
+<div id="current2">
+<h4>CURRENT</h4>
+<p id="p2current">00</p>
+</div>
+
+</div>
+</div>
+</div>
+<div id="rules">
+<p><pre>GAME RULES:
+
+- The game has 2 players, playing in rounds
+- In each turn, a player rolls a dice as many times as he whishes. Each result get added to his ROUND score
+- BUT, if the player rolls a 1, all his ROUND score gets lost. After that, it's the next player's turn
+- The player can choose to 'Hold', which means that his ROUND score gets added to his GLBAL score. After that, it's the next player's turn
+- The first player to reach 100(by default, you can change target <button  onclick='target();'>here</button>) points on GLOBAL score wins the game
+</pre>
+</p>
+</div>
+
+<script type="text/javascript" src="app.js"></script>
+
+</body>
+</html>
